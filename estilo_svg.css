@@ -1,0 +1,22 @@
+svg {
+    background-color: rgb(5, 5, 30);
+    border: 10px solid  rgba(255, 255, 255, 0.562);
+    animation-name: desplazarse;
+    animation-duration: 4s;
+    animation-iteration-count: infinite ;
+    position: relative;
+}
+
+
+@keyframes desplazarse {
+    0% {
+        left: 0;
+        top: 0;
+
+    }
+
+    100% {
+        left:80%;
+        top: 80%;
+    }
+}
