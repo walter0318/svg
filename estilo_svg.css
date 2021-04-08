@@ -11,12 +11,10 @@ svg {
 @keyframes desplazarse {
     0% {
         left: 0;
-        top: 0;
 
     }
 
     100% {
         left:80%;
-        top: 80%;
     }
 }
